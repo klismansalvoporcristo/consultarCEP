@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar CEP</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <p>Digite o <b>CEP</b> corretamente para preencher automaticamente os campos</p>
+        </header>
+        <section class="form">
+            <form>
+                <div class="divForm">
+                    <label>CEP</label>
+                    <input type="text" maxlength="9" placeholder="Ex: 65660-000" id="cep">
+                </div>
+                <div class="divForm">
+                    <label>Rua</label>
+                    <input type="text" placeholder="Ex: Avenida Brasil" id="logradouro">
+                </div>
+                <div class="divForm">
+                    <label>Bairro</label>
+                    <input type="text" placeholder="Ex: Centro" id="bairro">
+                </div>
+                <div class="divForm">
+                    <label>Complemento</label>
+                    <input type="text" id="complemento">
+                </div>
+                <div class="divForm">
+                    <label>Cidade</label>
+                    <input type="text" placeholder="Ex: São Luiz" id="localidade">
+                </div>
+                <div class="divForm">
+                    <label>Estado</label>
+                    <input type="text" placeholder="Ex: MA" id="uf">
+                </div>
+            </form>
+        </section>
+        <footer>
+            <p>Desenvolvido por <b>Klisman Salvoporcristo Pereira da Silva</b></p>
+        </footer>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
